@@ -15,6 +15,7 @@ window.onscroll = () => {
     loginFormContainer.classList.remove("active");
 } 
 
+
 searchBtn.addEventListener('click', () => {
     searchBtn.classList.toggle("fa-times");
     searchBar.classList.toggle("active");
